@@ -4,7 +4,7 @@ Welcome to the GitHub setup activity! In this activity, you will learn about git
 ## What are git and GitHub?
 Recall that git is a version control system that allows people to work on software projects together. Git keeps track of all the changes created by each member of the team, and allows file sharing between team members. 
 
-Since git is a a tool used through the command line interface (CLI), GitHub offers an interface to use some of the git functions, and host git repositories (or projects) online. GitHub offers a visual graphics based interface that offers a more beginner friendly access to your git repositories. 
+Since git is a tool used through the command line interface (CLI), GitHub offers an interface to use some of the git functions, and host git repositories (or projects) online. GitHub offers a visual graphics based interface that offers a more beginner friendly access to your git repositories. 
 
 ## Setting up GitHub on the Lab Computers
 The following set of instructions will walk you through how to create a GitHub account and access your repos using git through the CLI. 
