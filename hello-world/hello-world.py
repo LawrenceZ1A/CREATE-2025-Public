@@ -5,6 +5,9 @@ app = Flask(__name__)
 
 # Activity 4.1: basis Hello World Web app
 
+@app.route("/")
+def hello():
+    return "<h1>Hello World!</h1>"
 
 # Activity 4.2: Use routes, using routes to edit format
 

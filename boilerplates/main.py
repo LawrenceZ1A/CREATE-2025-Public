@@ -8,13 +8,17 @@ To run, cd into your project directory and then run the following command:
 flask --app (name of your project) run --debug
 """
 
-from flask import Flask, render_template # imports
-
+from flask import Flask # imports
+from datetime import datetime
 app = Flask(__name__) # create Flask app
 
+@app.route("/")
+def hello():
+    return "<h1>hello!</h1>"
 
-
-
+@app.route("/helloall")
+def hello_all():
+    return "hello everyone!"
 
 """
 Don't delete the code below! Needed for running the app.
